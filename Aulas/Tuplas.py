@@ -10,7 +10,7 @@ print(f'A Tupla {c} em ordem fica: {sorted(c)}')
 print(f'Quantas vezes aparece o 5 na Tupla? {c.count(5)}')
 print(c)
 print(f'Em que posição o 8 está? {c.index(8)}')
-print(f'Depos da posição 1, o número 5 aparece em qual posição? {c.index(5, 1)}')   # Deslocamento
+print(f'Depos    da posição 1, o número 5 aparece em qual posição? {c.index(5, 1)}')   # Deslocamento
 '''
 
 lanche = ('Hambúrguer', 'Suco', 'Pizza', 'Pudim')   # os parenteses não são obrigatorios
