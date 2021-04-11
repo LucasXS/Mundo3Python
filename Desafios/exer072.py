@@ -1,4 +1,4 @@
-# Crie um programa que tenha yna TUPLA totalmente preenchida com uma contagem por extenso de ZERO até VINTE.
+# Crie um programa que tenha una TUPLA totalmente preenchida com uma contagem por extenso de ZERO até VINTE.
 # Seu programa deverá ler um número pelo teclado (entre 0 e 20) e mostrá-lo por extenso.
 
 tupla = ('zero', 'um', 'dois', 'três', 'quatro', 'cinco', 'seis', 'sete', 'oito', 'nove', 'dez',
