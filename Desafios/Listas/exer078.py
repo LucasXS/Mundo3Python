@@ -5,6 +5,7 @@ qual foi o maior e o menor valor digitado e as suas respectivas posições na li
 listNum = []
 maior = 0
 menor = 0
+
 for cont in range(0, 5):
     listNum.append(int(input(f'Digite um valor na posição {cont}: ')))
     if cont == 0:
@@ -21,17 +22,3 @@ for indice, valor in enumerate(listNum):
 for indice, valor in enumerate(listNum):
     if valor == menor:
         print(f'O menor valor foi {valor} na {indice+1}º posição')
-
-"""
-for num in listNum:
-    if num > maior:
-        maior = num
-
-for num in listNum:
-    if num == 1:
-        menor = num
-    elif num < menor:
-        menor = num"""
-
-
-
