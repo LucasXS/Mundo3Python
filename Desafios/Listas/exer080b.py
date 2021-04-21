@@ -13,4 +13,5 @@ for c in range(0, 5):
                 print(f'Adicionado na posição {pos} da lista...')
                 break
             pos += 1
+print('-='*30)
 print(f'Os valores digitados em ordem foram {minhalista}')
