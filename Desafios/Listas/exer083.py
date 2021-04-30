@@ -1,9 +1,8 @@
 """EXERCICIO 083
-Crie um programa onde o usuário uma expressão qualquer que use parênteses. Seu aplicativo deverá analisar se
+Crie um programa onde o usuário Digite uma expressão qualquer que use parênteses. Seu aplicativo deverá analisar se
 a expressão passada está com os parênteses abertos e fechados na ordem correta.
 """
-expre
-ssao = str(input('Digite sua expressão: '))
+expressao = str(input('Digite sua expressão: '))
 pilha = []
 for simbolo in expressao:
     if simbolo == '(':
