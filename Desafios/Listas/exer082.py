@@ -1,9 +1,8 @@
 """EXERCICIO 082
 Crie um programa que lerá vários números e irá colocar em uma lista
 Depois, crie duas listas extras que vão contar apenas os valores pares e os impares digitados, respectivamente.
-Ao final, mostre o resultado das três listas geradas.
+Ao final, mostre o resultado das três listas geradas."""
 
-"""
 lista1 = []
 lista2 = []
 lista3 = []
