@@ -6,9 +6,9 @@ matriz = [[],[],[]]
 for i in range(0, 3):       # LINHAS
     for j in range(0, 3):   # COLUNAS
         # vai adicionados números de entrada na LINHA
-        matriz[i].append(int(input(f'Digite o valor para [{i}, {j}]: ')))
+        matriz[i].append(int(input(f'Digite o valor para [\033[1:34m{i}, {j}\033[m]: ')))
 
 for i in range(0, 3):
     for j in range(0, 3):
-        print(f'[{matriz[i][j]:^5}]', end='')
+        print(f'[\033[1:31m{matriz[i][j]:^5}\033[m]', end='')
     print()
