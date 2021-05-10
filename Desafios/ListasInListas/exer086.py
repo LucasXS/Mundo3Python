@@ -2,7 +2,7 @@
 No final, mostre a MATRIZ na tela, com a formação correta."""
 
 # cria uma Matriz vazia de 3 linhas
-matriz = [[],[],[]]
+matriz = [[], [], []]
 for i in range(0, 3):       # LINHAS
     for j in range(0, 3):   # COLUNAS
         # vai adicionados números de entrada na LINHA
