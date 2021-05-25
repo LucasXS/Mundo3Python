@@ -20,7 +20,7 @@ São blocos nomeados de um código designado para fazer um trabalho em específi
 
 Exemplo:
 def lin():
-    """Mostra uma linha com trinta hífens seguidos."""
+    Mostra uma linha com trinta hífens seguidos
     print('-' * 30)
 
 *Para chamar uma função, é só você digitar o nome da função seguido por um conjunto de parênteses, como por exemplo: lin()
