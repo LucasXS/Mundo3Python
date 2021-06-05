@@ -11,12 +11,17 @@ FUNÇÕES (Parte 1) - Aula 20
 
 
 *O que é uma FUNÇÃO no Python?
-São blocos nomeados de um código designado para fazer um trabalho em específico. Elas permitem que você escreva o código uma vez que
- poderá ser usado a quantidade de vezes que você precisar para fazer uma mesma função. As funções podem pegar a informação que elas precisam e retornar a informação que elas geram. Então, basicamente é um jeito de tornar os programas fáceis de escrever, ler, testar, e consertar.
+São blocos nomeados de um código designado para fazer um trabalho em específico. Elas permitem que você escreva o
+código uma vez que
+ poderá ser usado a quantidade de vezes que você precisar para fazer uma mesma função. As funções podem pegar a
+ informação que elas precisam e retornar a informação que elas geram. Então, basicamente é um jeito de tornar os
+ programas fáceis de escrever, ler, testar, e consertar.
 
 
-*Para definir uma função, a primeira linha dela é a sua definição, marcada pela palavra-chave DEF. O nome da função é seguido por um conjunto
- de parênteses e dois pontos. Uma DOCSTRING, em aspas triplas, descreve o que a função faz. O corpo da função ou o bloco de códigos dela é identado em um nível.
+*Para definir uma função, a primeira linha dela é a sua definição, marcada pela palavra-chave DEF.
+O nome da função é seguido por um conjunto
+ de parênteses e dois pontos. Uma DOCSTRING, em aspas triplas, descreve o que a função faz. O corpo da
+ função ou o bloco de códigos dela é identado em um nível.
 
 Exemplo:
 def lin():
