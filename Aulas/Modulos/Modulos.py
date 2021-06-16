@@ -1,6 +1,15 @@
-import uteis
+"""import uteisDois
 
 num = int(input('Digite um valor: '))
-fat = uteis.fatorial(num)
+fat = uteisDois.fatorial(num)
 print(f'O Fatorial de {num} é {fat}')
-print(f'O dobro de {num} é {uteis.dobro(num)} e o triplo é {uteis.triplo(num)}')
+print(f'O dobro de {num} é {uteisDois.dobro(num)} e o triplo é {uteisDois.triplo(num)}')"""
+
+
+from uteisDois import numeros
+
+
+num = int(input('Digite um valor: '))
+fat = numeros.fatorial(num)
+print(f'O Fatorial de {num} é {fat}')
+print(f'O dobro de {num} é {numeros.dobro(num)} e o triplo é {numeros.triplo(num)}')
